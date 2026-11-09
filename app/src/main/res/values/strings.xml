@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Inventaris Barang</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Labels -->
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+    <string name="label_dashboard">Dashboard</string>
+    <string name="label_item_list">List Inventaris</string>
+    <string name="label_item_form">Form Barang</string>
+
+    <!-- Titles & Headers -->
+    <string name="title_login_058">Aplikasi Inventaris Barang</string>
+    <string name="subtitle_login_058">Silakan masuk menggunakan akun Anda</string>
+    <string name="title_register_058">Buat Akun Baru</string>
+    <string name="subtitle_register_058">Daftarkan akun untuk mulai mengelola inventaris</string>
+    <string name="title_dashboard_058">Dashboard Inventaris</string>
+    <string name="welcome_user_058">Selamat Datang, %1$s!</string>
+    <string name="label_total_nilai_058">Total Nilai Inventaris</string>
+    <string name="label_total_jenis_058">Total Jenis Barang</string>
+    <string name="total_jenis_format_058">%1$d Jenis Barang</string>
+    <string name="title_item_list_058">Daftar Inventaris Barang</string>
+    <string name="title_add_item_058">Tambah Barang Baru</string>
+    <string name="title_edit_item_058">Edit / Hapus Barang</string>
+
+    <!-- Input Labels & Hints -->
+    <string name="label_username_058">Username</string>
+    <string name="hint_username_058">Masukkan username</string>
+    <string name="label_password_058">Password</string>
+    <string name="hint_password_058">Masukkan password</string>
+    <string name="label_confirm_password_058">Konfirmasi Password</string>
+    <string name="hint_confirm_password_058">Ulangi password</string>
+
+    <string name="label_nama_barang_058">Nama Barang</string>
+    <string name="hint_nama_barang_058">Contoh: Laptop Asus</string>
+    <string name="label_jumlah_barang_058">Jumlah Barang (Pcs)</string>
+    <string name="hint_jumlah_barang_058">Contoh: 10</string>
+    <string name="label_harga_barang_058">Harga Satuan (Rp)</string>
+    <string name="hint_harga_barang_058">Contoh: 5000000</string>
+
+    <!-- Buttons -->
+    <string name="btn_login_058">Masuk/Login</string>
+    <string name="btn_register_058">Daftar Akun</string>
+    <string name="btn_view_list_058">Lihat List Inventaris</string>
+    <string name="btn_add_item_058">Tambah Barang Baru</string>
+    <string name="btn_logout_058">Logout/Keluar</string>
+    <string name="btn_save_058">Simpan Data Barang</string>
+    <string name="btn_delete_058">Hapus Barang Ini</string>
+
+    <!-- Links & Prompts -->
+    <string name="link_register_058">Belum punya akun? Daftar di sini</string>
+    <string name="link_login_058">Sudah punya akun? Login di sini</string>
+    <string name="empty_items_058">Belum ada barang di inventaris Anda.\nKlik tombol di bawah untuk menambah barang baru!</string>
+
+    <!-- Toast / Alerts -->
+    <string name="msg_register_success_058">Registrasi berhasil! Silakan login.</string>
+    <string name="msg_username_exists_058">Username sudah terdaftar! Gunakan username lain.</string>
+    <string name="msg_login_failed_058">Username atau password salah!</string>
+    <string name="msg_password_mismatch_058">Password dan Konfirmasi Password tidak cocok!</string>
+    <string name="msg_field_empty_058">Semua bidang wajib diisi!</string>
+    <string name="msg_item_saved_058">Barang berhasil disimpan!</string>
+    <string name="msg_item_updated_058">Barang berhasil diperbarui!</string>
+    <string name="msg_item_deleted_058">Barang berhasil dihapus!</string>
+    <string name="msg_logout_success_058">Anda telah keluar dari akun.</string>
+</resources>

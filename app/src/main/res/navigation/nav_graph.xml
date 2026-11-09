@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment058">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment058"
+        android:name="com.example.utsapp.ui.LoginFragment058"
+        android:label="@string/label_login"
+        tools:layout="@layout/fragment_login_058">
+
+        <action
+            android:id="@+id/action_loginFragment058_to_registerFragment058"
+            app:destination="@id/registerFragment058" />
+        <action
+            android:id="@+id/action_loginFragment058_to_dashboardFragment058"
+            app:destination="@id/dashboardFragment058"
+            app:popUpTo="@id/loginFragment058"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Register Fragment -->
+    <fragment
+        android:id="@+id/registerFragment058"
+        android:name="com.example.utsapp.ui.RegisterFragment058"
+        android:label="@string/label_register"
+        tools:layout="@layout/fragment_register_058">
+
+        <action
+            android:id="@+id/action_registerFragment058_to_loginFragment058"
+            app:destination="@id/loginFragment058"
+            app:popUpTo="@id/registerFragment058"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Dashboard Fragment -->
+    <fragment
+        android:id="@+id/dashboardFragment058"
+        android:name="com.example.utsapp.ui.DashboardFragment058"
+        android:label="@string/label_dashboard"
+        tools:layout="@layout/fragment_dashboard_058">
+
+        <action
+            android:id="@+id/action_dashboardFragment058_to_itemListFragment058"
+            app:destination="@id/itemListFragment058" />
+        <action
+            android:id="@+id/action_dashboardFragment058_to_itemFormFragment058"
+            app:destination="@id/itemFormFragment058" />
+        <action
+            android:id="@+id/action_dashboardFragment058_to_loginFragment058"
+            app:destination="@id/loginFragment058"
+            app:popUpTo="@id/dashboardFragment058"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Item List Fragment -->
+    <fragment
+        android:id="@+id/itemListFragment058"
+        android:name="com.example.utsapp.ui.ItemListFragment058"
+        android:label="@string/label_item_list"
+        tools:layout="@layout/fragment_item_list_058">
+
+        <action
+            android:id="@+id/action_itemListFragment058_to_itemFormFragment058"
+            app:destination="@id/itemFormFragment058" />
+    </fragment>
+
+    <!-- Item Form Fragment (Tambah / Edit) -->
+    <fragment
+        android:id="@+id/itemFormFragment058"
+        android:name="com.example.utsapp.ui.ItemFormFragment058"
+        android:label="@string/label_item_form"
+        tools:layout="@layout/fragment_item_form_058">
+
+        <argument
+            android:name="itemId058"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+</navigation>

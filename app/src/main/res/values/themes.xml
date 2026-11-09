@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme aligned with Inventory & Logistics Design System -->
+    <style name="Base.Theme.UTSApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary and Secondary Colors -->
+        <item name="colorPrimary">@color/primary_058</item>
+        <item name="colorOnPrimary">@color/white_058</item>
+        <item name="colorPrimaryContainer">@color/primary_variant_058</item>
+        <item name="colorSecondary">@color/secondary_058</item>
+        <item name="colorOnSecondary">@color/white_058</item>
+        <item name="colorSecondaryContainer">@color/secondary_variant_058</item>
+        <item name="colorError">@color/error_058</item>
+        <item name="android:statusBarColor">@color/primary_058</item>
+        <item name="android:windowBackground">@color/background_058</item>
+    </style>
+
+    <style name="Theme.UTSApp" parent="Base.Theme.UTSApp" />
+</resources>
